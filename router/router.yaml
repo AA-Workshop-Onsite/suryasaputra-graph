@@ -48,6 +48,17 @@ authorization:
   directives: 
     enabled: true
 
+# persisted_queries:
+persisted_queries:
+  enabled: true
+  safelist: 
+    enabled: true
+    require_id: false
+apq:
+  enabled: false
+
+
+
 # coprocessor
 coprocessor:
   url: https://coprocessor-wn3vwa6nlq-ue.a.run.app 
